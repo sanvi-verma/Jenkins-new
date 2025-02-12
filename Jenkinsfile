@@ -2,7 +2,7 @@ pipeline {
     agent any   // Use any available Jenkins agent
 
     environment {
-        REPO_URL = 'https://github.com/yourusername/your-repo.git'
+        REPO_URL = 'https://github.com/sanvi-verma/Jenkins-new'
         BRANCH = 'main'
         BUILD_START_TIME = ''
         BUILD_END_TIME = ''
